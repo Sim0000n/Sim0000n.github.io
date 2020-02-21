@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# 个人信息
+- 曾阳 / 男 / 1998
+- 手机：15115333985
+- 邮箱：mendellovejazz@outlook.com
+- GitHub: https://github.com/Sim0000n
+- 2016年——2020年：本科 / 华中科技大学 / 软件工程
+---
+# 项目经历
+### OrderMan
 
-You can use the [editor on GitHub](https://github.com/Sim0000n/Sim0000n.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+- 项目介绍：一个智能点餐系统，用户可以通过移动端Web进行线上点餐，商家通过后台管理系统对商品进行增删改操作，并处理用户的订单，后台还有一个信息收集系统，记录商品交易信息。正在开发中，计划于毕设答辩前完成。
+- 技术栈: 
+    后端——Spring+SpringMVC+Mybatis+MySQL+Maven
+    前端——Next.js+antd-mobile 
+- github： https://github.com/Sim0000n/OrderMan
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### lmlys
+- 项目介绍： 龙门楼夜市是一个购物网站，由包括本人在内的3人小组共同完成后端部分，由于我的两名组员没有后端开发经验，但分别熟悉Java与MySQL，因此我完成了项目的大体框架，将一部分Service层业务逻辑以及数据库的设计与操作进行详细分工。
+- 技术栈:
+    Spring+SpringMVC+Mybatis+MySQL+Maven
+- github: https://github.com/Sim0000n/lmlys
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sim0000n/Sim0000n.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 向ELF执行文件中嵌入代码
+- 项目介绍：在Linux中下修改一个现有的elf可执行程序（显然没有源代码！譬如vi或其他任何自己编写的可执行程序）。让该程序运行后先执行一个特别的附件功能（附加功能是：创建或打开一个指定文件写入helloworld的字符串）后再继续运行该程序。
+---
+# 个人技能
+-
+---
