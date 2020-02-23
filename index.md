@@ -2,14 +2,15 @@
 - 曾阳 / 男 / 1999
 - GitHub: https://github.com/Sim0000n
 - 2016年—2020年：本科 / 华中科技大学 / 软件工程
+
 # 联系方式
 - qq：1207628338
 - 手机\微信：15115333985
 - 邮箱：mendellovejazz@outlook.com
 ---
+
 # 项目经历
 ### OrderMan
-
 - 项目介绍：一个智能点餐系统，用户可以通过移动端Web进行线上点餐，商家通过后台管理系统对商品进行增删改操作，并处理用户的订单，后台还有一个信息收集系统，记录商品交易信息。正在开发中，计划于毕设答辩前完成。
 - 技术栈: 
     后端——Spring+SpringMVC+Mybatis+MySQL+Maven
@@ -29,13 +30,14 @@
     ELF执行文件+Linux+汇编语言
 - 项目总结：https://sim0000n.github.io/elf
 ---
+
 # 个人技能
-- 编程语言：C语言、Python、Java
-- 前端：HTML、CSS、JavaScript
+- 编程语言：Java、C语言、Python、
 - 版本控制：Git
 - 数据库：MySQL
 - 后端框架：Spring、SpringMVC、Mybatis
 - 操作系统：Linux常用命令
 ---
+
 # 致谢
-感谢您百忙之中阅读我的简历，非常期待与您共事。
+感谢您百忙之中阅读我的简历，非常期待与您共事。我的简历，非常期待与您共事。
